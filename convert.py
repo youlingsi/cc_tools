@@ -2,7 +2,11 @@ import cc_dat_utils
 
 #Part 1
 #Use cc_data_utils.make_cc_data_from_dat() to load pfgd_test.dat
+path = "data/pfgd_test.dat"
+data = cc_dat_utils.make_cc_data_from_dat(path)
 #print the resulting data
+print(data)
+
 
 
 #Part 2
