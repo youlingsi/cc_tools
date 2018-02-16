@@ -28,6 +28,18 @@ print(gmLibrary)
 
 
 #Part 3
+import  cc_json_utils
 #Load your custom JSON file
+inputJsonFile = "data/ley1_cc1.json"
+exportDatFile = "data/ley1_cc1.dat"
+with open(inputJsonFile, "r") as jsFile:
+    #Use the json module to load the data from the file
+    jsData = json.load(jsFile)
 #Convert JSON data to cc_data
+ccData = cc_json_utils.makeDataFile(jsData)
 #Save converted data to DAT file
+cc_dat_utils.write_cc_data_to_dat(ccData,exportDatFile)
+
+
+
+
