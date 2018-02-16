@@ -39,7 +39,4 @@ with open(inputJsonFile, "r") as jsFile:
 ccData = cc_json_utils.makeDataFile(jsData)
 #Save converted data to DAT file
 cc_dat_utils.write_cc_data_to_dat(ccData,exportDatFile)
-
-
-
-
+print("done!")

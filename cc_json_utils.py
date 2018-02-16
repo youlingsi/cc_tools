@@ -79,8 +79,10 @@ def inputOptionalFields(fields):
             ccField = makeFieldMapTitle(field)
         elif fieldType == 4:
             ccField = makeFieldTrapControl(field)
+            print(ccField)
         elif fieldType == 5:
             ccField = makeFieldCloneMachine(field)
+            print(ccField)
         elif fieldType == 6:
             ccField = makeFieldEncedPassword(field)
         elif fieldType == 7:
