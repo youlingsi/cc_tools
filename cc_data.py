@@ -13,7 +13,7 @@ class CCField:
     """
 
     def __init__(self, type_val, byte_val):
-        self.type_val = type
+        self.type_val = type_val
         self.byte_val = byte_val
 
     @property
@@ -28,7 +28,7 @@ class CCField:
     @property
     def json_data(self):
         json_field = {}
-        json_field["type"] = self.int_type
+        json_field["type"] = self.type_val
         json_field["value"] = self.byte_val.decode()
         return json_field
 

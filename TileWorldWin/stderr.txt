@@ -1,0 +1,4 @@
+cannot use cc-lynx.dac: chips.dat unavailable [series.c:531]
+cannot use cc-ms.dac: chips.dat unavailable [series.c:531]
+level 1: no creature at location (0 0) [mslogic.c:2099]
+level 1: no creature at location (10 10) [mslogic.c:2099]
