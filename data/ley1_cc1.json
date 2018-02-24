@@ -1,22 +1,4 @@
 {
-<<<<<<< HEAD
-    "levels":[{
-        "lvlNumber": 1,
-        "time": 0,
-        "chipNumber":0,
-        "upperLayer":{
-
-        },
-        "lowerLayer":{
-
-        },
-        "optionalFields":[
-
-        ]
-    }
-    ]
-
-=======
     "levels":[
         {
             "level number": 1,
@@ -162,5 +144,4 @@
             ]
         }
     ]
->>>>>>> 33f5347759cc7927db01d2a58e324affae42aaf6
 }

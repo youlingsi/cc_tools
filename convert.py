@@ -41,5 +41,20 @@ ccData = cc_json_utils.makeDataFile(jsData)
 cc_dat_utils.write_cc_data_to_dat(ccData,exportDatFile)
 
 
+#Print the arraries
+def printLevelArray():
+    layer = [["  0,"] * 32] * 32
+    for row in range(32):
+        for col in range(32):
+            print(layer[row][col], end = "")
+        print()
+            
+printLevelArray()
+    
+
+
+
+
+
 
 
